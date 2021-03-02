@@ -1,0 +1,44 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 50%;
+    height: 80%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table {
+    background-color: blue;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.top {
+    background-color: green;
+    width: 90%;
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+}
+.mid {
+    background-color: yellow;
+    width: 90%;
+    height: 33%;
+}
+.bottom {
+    background-color: purple;
+    width: 90%;
+    height: 33%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+}
